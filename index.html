@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <title>Happy Birthday Ma'am Asma 🎂</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +28,7 @@ z-index:-1;
 }
 
 
-/* Intro Image Popup */
+/* Popup Image */
 
 #intro{
 position:fixed;
@@ -55,13 +54,20 @@ box-shadow:0 0 40px #ffd700;
 }
 
 @keyframes fadeOut{
-0%{opacity:1;}
-80%{opacity:1;}
-100%{opacity:0;visibility:hidden;}
+0%{
+opacity:1;
+}
+80%{
+opacity:1;
+}
+100%{
+opacity:0;
+visibility:hidden;
+}
 }
 
 
-/* Card */
+/* main card */
 
 .card{
 width:85%;
@@ -69,7 +75,7 @@ max-width:750px;
 margin:40px auto;
 padding:35px;
 background:rgba(255,255,255,0.08);
-border:1px solid #ffd700;
+border:1px solid rgba(255,215,0,0.4);
 border-radius:30px;
 backdrop-filter:blur(15px);
 box-shadow:0 0 40px rgba(255,215,0,0.25);
@@ -92,19 +98,21 @@ p{
 font-size:20px;
 line-height:1.9;
 text-align:left;
+color:#f5f5f5;
 }
 
 
 img{
-max-width:300px;
 width:45%;
+max-width:300px;
 margin:10px;
 border-radius:20px;
 border:3px solid #ffd700;
+box-shadow:0 0 20px rgba(255,215,0,0.5);
 }
 
 
-/* Balloons */
+/* balloons */
 
 .balloon{
 position:fixed;
@@ -113,13 +121,27 @@ font-size:55px;
 animation:up 10s infinite;
 }
 
+
 @keyframes up{
 0%{transform:translateY(0);}
 100%{transform:translateY(-120vh);}
 }
 
 
-/* Mobile */
+/* stars */
+
+.star{
+position:fixed;
+color:#ffd700;
+font-size:20px;
+animation:blink 2s infinite;
+}
+
+
+@keyframes blink{
+50%{opacity:.2;}
+}
+
 
 @media(max-width:600px){
 
@@ -134,6 +156,7 @@ font-size:32px;
 
 p{
 font-size:18px;
+line-height:1.8;
 }
 
 img{
@@ -151,27 +174,76 @@ width:90%;
 <div id="intro">
 <img src="IMG_2770.JPG">
 </div>
-
 <div class="balloon" style="left:10%">🎈</div>
 <div class="balloon" style="left:50%;animation-delay:3s">🎈</div>
 <div class="balloon" style="left:80%;animation-delay:6s">🎈</div>
 
 
+<div class="star" style="top:20%;left:20%">✨</div>
+<div class="star" style="top:40%;left:80%">✨</div>
+<div class="star" style="top:70%;left:30%">✨</div>
+
+
 <div class="card">
 
-<h1>
-🎉 Happy Birthday<br>
-Ma'am Asma 🎂
-</h1>
+
+<h1>🎉 Happy Birthday<br>Ma'am Asma 🎂</h1>
+
 
 <p>
 Today is a very special day because it is the birthday of a person who is not only my teacher, but also someone who supported me, understood me, and stood by me when I needed it the most.
 </p>
 
+
 <p>
 Ma’am, some teachers only teach from books, but some teachers leave memories that stay with us forever. You are one of those special people for me.
 </p>
 
+
 <p>
 I still remember the moments when you supported me like a little brother, not just like a student. The way you understood me, helped me, and sometimes even joked with me made our bond different and special.
 </p>
+
+
+<p>
+I can never forget the small memories we created together. The support, kindness, laughter, and beautiful moments we shared will always stay special for me.
+</p>
+
+
+<h2>📸 Beautiful Memories</h2>
+
+
+<img src="IMG_2770.JPG">
+<img src="IMG_2776.JPG">
+<img src="df771a0f-293c-4207-859e-c6cf093a42fb.JPG">
+
+
+<h2>❤️ Thank You Ma'am Asma</h2>
+
+
+<p>
+Thank you for supporting me, understanding me, and being such an amazing teacher.
+</p>
+
+
+<p>
+I pray that Allah blesses you with endless happiness, success, good health, and a life full of beautiful moments.
+</p>
+
+
+<h2>🎂 Happy Birthday Once Again ❤️</h2>
+
+
+<p>
+May Allah always keep a smile on your face.
+
+<br><br>
+— Momin
+</p>
+
+
+</div>
+
+
+</body>
+</html>
